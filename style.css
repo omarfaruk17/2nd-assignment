@@ -31,6 +31,11 @@ img{
     font-size: 45px;
     color: #131313;
 }
+.third-title{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
 .primary-discription{
     font-weight: 400;
     font-size: 16px;
@@ -118,6 +123,30 @@ img{
 .dark-text{
     color: #FF900E;
 }
+
+
+/* portfolio style */
+.portfolio-area{
+    display: flex;
+    gap: 100px;
+    
+}
+.portfolio-text{
+    width: 600px;
+}
+.left-border{
+    border-left: 5px solid #FF900E;;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+.single-body-text{
+    margin: 15px 0;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+}
+
 
 
 /* fact section style */
