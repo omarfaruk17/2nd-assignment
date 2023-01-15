@@ -1,0 +1,174 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+/* primary style */
+
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    color: #424242;
+}
+.section-gap{
+    margin: 50px 0;
+}
+.container{
+    max-width: 1180px;
+    margin: auto;
+}
+
+img{
+    width: 100%;
+}
+
+.primary-title{
+    font-weight: 700;
+    font-size: 64px;
+}
+.secondary-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.primary-discription{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.primary-btn{
+    background-color: #FF900E;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 30px 0;
+}
+
+
+
+/* header style */
+.header-area{
+    background: rgba(255, 144, 14, 0.1);
+}
+.nav-area{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    align-items: center;
+    
+    
+}
+.logo p{
+    font-weight: 700;
+    font-size: 45px;
+}
+.nav a{
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 20px;
+    color: #424242;
+}
+
+/* header body style */
+
+
+.text-area{
+    text-align: center;
+    width: 850px;
+    margin: auto;
+}
+.text-area p{
+    margin-top: 20px;
+}
+
+
+/* team area */
+.team-area{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 70px;
+    align-items: center;
+}
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 24px;
+}
+
+
+/* team text style */
+
+
+.team-text{
+    font-size: 45px;
+}
+.team-text p{
+    margin-top: 24px;
+}
+
+.lite-text{
+    font-weight: 500;
+    color: #727272;
+}
+.dark-text{
+    color: #FF900E;
+}
+
+
+/* fact section style */
+.fact-body{
+    display: flex;
+    gap: 100px;
+}
+.fact-body img{
+    width: 45px;
+    height: auto;
+}
+.fact-text p{
+    margin: 24px 0;
+}
+
+.single-fact-body{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding: 35px;
+}
+.single-fact-body p{
+    font-weight: 600;
+    font-size: 16px;
+}
+.single-fact-body .fact-number{
+    font-weight: 600;
+    font-size: 45px;
+    margin: 10px 0;
+}
+.single-fact-body:hover{
+    scale: 20px;
+}
+
+/* sponsor style */
+.spo-text{
+    text-align: center;
+}
+.spo-text p{
+    margin: 30px 0;
+}
+.spo-img{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 155px;
+    margin-bottom: 150px;
+}
+
+/* footer style */
+.footer-area{
+    background-color: #FFF4E7;
+    text-align: center;
+    padding: 40px 0;
+}
