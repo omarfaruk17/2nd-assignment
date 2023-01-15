@@ -60,12 +60,15 @@ img{
     color: white;
 }
 
-
+.hide{
+    display: none;
+}
 
 /* header style */
 .header-area{
     background: rgba(255, 144, 14, 0.1);
 }
+
 .nav-area{
     display: flex;
     justify-content: space-between;
@@ -87,11 +90,13 @@ img{
 }
 
 /* header body style */
-
-
+.header-body .text-area {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
 .text-area{
     text-align: center;
-    width: 850px;
+    width: 80%;
     margin: auto;
 }
 .text-area p{
@@ -228,4 +233,108 @@ img{
     background-color: #FFF4E7;
     text-align: center;
     padding: 40px 0;
+}
+
+
+/* responsive css */
+
+/* header area */
+
+@media screen and (max-width : 576px) {
+    .nav-area{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        align-items: center;
+        
+        
+    }
+    .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .text-area{
+        width: 100%;
+    }
+    .primary-title{
+        font-size: 45px;
+    }
+}
+
+
+/* team area */
+
+@media screen and (max-width : 576px) {
+    .team-area{
+
+    display: flex;
+    flex-direction:  column-reverse;
+    text-align: center;
+}
+}
+
+/* portfolio area */
+@media screen and (max-width : 576px){
+    .portfolio-area{
+        display: flex;
+        gap: 100px;
+        flex-direction: column;
+        
+        
+    }
+    .portfolio-text{
+        width: 100%;
+        
+    }
+
+    .portfolio-text .secondary-title{
+        font-size: 30px;
+    }
+
+    .secondary-btn{
+        left: 50%;
+        bottom: 0;
+        background-color: #131313;
+        width: 60%;
+        translate: -50%;
+        
+    }
+
+    .secondary-btn h2{
+        font-weight: 700;
+        font-size: 24px;
+        margin-top: 20px;
+    }
+}
+/* fact area */
+
+@media screen and (max-width : 576px) {
+    .fact-text{
+        text-align: center;
+    }
+
+    .fact-body{
+        flex-direction: column;
+        padding: 50px;
+    }
+}
+
+/* sponsor area */
+@media screen and (max-width : 576px) {
+
+    .spo-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .spo-img img{
+        width: 50%;
+    }
+    
 }
